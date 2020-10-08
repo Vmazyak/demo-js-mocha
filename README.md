@@ -4,6 +4,7 @@
 
 ## Usage
 
-`npm test` - run with default user creds ["standard_user" | "secret_sauce"]
+`username="standard_user" password="secret_sauce" npm test` - run with custom user credentials.
 
-`username="standard_user" password="secret_sauce" npm test`
+
+`npm test` - run with default user credentials (after they were set) ["standard_user" | "secret_sauce"]
